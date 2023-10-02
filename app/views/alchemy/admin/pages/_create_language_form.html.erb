@@ -30,7 +30,7 @@
       label: Alchemy.t(:page_type),
       include_blank: Alchemy.t('Please choose'),
       required: true,
-      input_html: {class: 'alchemy_selectbox'} %>
+      input_html: {is: 'alchemy-select'} %>
     <%= form.hidden_field :language_id, value: @language.id %>
     <%= form.hidden_field :language_code, value: @language.code %>
     <%= form.hidden_field :language_root, value: true %>

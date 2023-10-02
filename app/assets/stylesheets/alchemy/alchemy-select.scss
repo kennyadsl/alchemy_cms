@@ -1,0 +1,15 @@
+.alchemy-select {
+  &.closed {
+    overflow: hidden;
+    height: calc(1rem + 1em);
+  }
+
+  li {
+    padding: 0.5em;
+    list-style-type: none;
+  }
+
+  menu {
+    padding: 0;
+  }
+}
